@@ -1,11 +1,14 @@
 {
-  "name": "Web Window Manager",
-  "description": "A window manager that is infinitely more customizable than any other",
-  "version": "0.1",
-  "manifest_version": 2,
-  "app": {
-    "background": {
-      "scripts": ["background.js"]
-    }
-  }
+	"name": "Web Window Manager",
+	"description": "A window manager that is infinitely more customizable than any other",
+	"version": "0.1",
+	"manifest_version": 2,
+	"app": {
+		"background": {
+			"scripts": ["background.js"]
+		}
+	},
+	"permissions": [
+		"webview"
+	]
 }
